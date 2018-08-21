@@ -1,0 +1,50 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [
+            {
+                "actions": {
+                    "controllerActionCombinations": ""
+                },
+                "description": "",
+                "key": "mod1",
+                "mainModule": "tools",
+                "name": "Category Manager",
+                "tabLabel": ""
+            }
+        ],
+        "description": "Backend Module to manage System Categories",
+        "emConf": {
+            "category": "module",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-8.7.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "8.7.0-8.7.99",
+            "version": "0.1"
+        },
+        "extensionKey": "categorymanager",
+        "name": "Category Manager",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "Intersim AG",
+                "email": "oliver.beck@intersim.ch",
+                "name": "Oliver Beck",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "OliverBeck"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2018-08-21 06:54",
+        "extension_builder_version": "8.7.0",
+        "be_user": " (1)"
+    }
+}
